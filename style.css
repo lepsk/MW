@@ -564,7 +564,7 @@ a#blink {
   cursor: grabbing;
 }
 .carousel .card-1:hover{
-  background: #f0db4f;
+  background: #000;
 }
 .carousel .card-2:hover{
   background: #e44c23;
@@ -573,10 +573,10 @@ a#blink {
   background: #264de4;
 }
 .carousel .card-4:hover{
-  background: #000000;
+  background: #fff700;
 }
 .carousel .card-5:hover{
-  background: #2c2f33;
+  background: #0066ff;
 }
 .carousel .card-6:hover{
   background: linear-gradient(to right, #e76f00, #5382a1);
