@@ -579,7 +579,7 @@ a#blink {
   background: #0066ff;
 }
 .carousel .card-6:hover{
-  background: linear-gradient(to right, d9e700, #009aff);
+  background: linear-gradient(to right, #ffdf00, #000000);
 }
 .owl-dot{
   height: 15px;
