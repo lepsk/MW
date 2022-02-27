@@ -652,13 +652,12 @@ span.a:hover, span.w:hover, span.i:hover, span.s:hover, span.h:hover{
 }
 @keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 #ffffff, -2px 0 0 #626262;
+    text-shadow: 1px 0 0 #6ea3b1, -2px 0 0 #626262;
   }
   to {
-    text-shadow: 2px 0.5px 2px #626262, -1px -0.5px 2px #ffffff;
+    text-shadow: 2px 0.5px 2px #6ea3b1, -1px -0.5px 2px #626262;
   }
 }
-
 
 /* The About Book */
 .the-about-book{
