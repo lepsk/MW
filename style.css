@@ -37,7 +37,7 @@ a, i{
   cursor: url('Assets/cursors/Link.cur'), pointer !important;
 }
 #home{
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(25, 25, 25);
 }
 #skills{
   background-color: rgb(25, 25, 25);
@@ -425,14 +425,14 @@ nav .icon-burger .line {
 }
 nav.sticky{
   height: 60px;
-  background-color: #fff;
+  backdrop-filter: blur(10px);
   transition: 0.2s all;
 }
 nav.sticky .links a{
-  color: #000;
+  color: #6e6e6e;
 }
 nav.sticky .logo{
-  color: #000;
+  color: #6e6e6e;
 }
 
 /* PLAY AND PAUSE + TOOLTIP*/
@@ -564,22 +564,28 @@ a#blink {
   cursor: grabbing;
 }
 .carousel .card-1:hover{
-  background: #000;
+  background: linear-gradient(to right, #00bbff, #000000);
+/* Stock */
 }
 .carousel .card-2:hover{
-  background: #e44c23;
+  background: linear-gradient(to right, #ffffff, #000000);
+/* Social */
 }
 .carousel .card-3:hover{
-  background: #000000;
+  background: linear-gradient(to right, #ffffff, #000000);
+/* SECTION */
 }
 .carousel .card-4:hover{
-  background: #fff700;
+  background: linear-gradient(to right, #d000ff, #000000);
+/* Mentorship */
 }
 .carousel .card-5:hover{
-  background: #0066ff;
+  background: linear-gradient(to right, #ff0051, #000000);
+/* Services */
 }
 .carousel .card-6:hover{
-  background: linear-gradient(to right, #ffdf00, #000000);
+  background: linear-gradient(to right, #ff7b00, #000000);
+/* Google */
 }
 .owl-dot{
   height: 15px;
@@ -639,7 +645,7 @@ span.a, span.w, span.i, span.s, span.h{
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: rgb(10, 10, 10);
+  color: rgb(87, 87, 87);
   cursor: url('Assets/cursors/Normal.cur'), default !important;
   transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -652,10 +658,10 @@ span.a:hover, span.w:hover, span.i:hover, span.s:hover, span.h:hover{
 }
 @keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 #6ea3b1, -2px 0 0 #626262;
+    text-shadow: 1px 0 0 #10aad4, -2px 0 0 #626262;
   }
   to {
-    text-shadow: 2px 0.5px 2px #6ea3b1, -1px -0.5px 2px #626262;
+    text-shadow: 2px 0.5px 2px #1ab9e6, -1px -0.5px 2px #626262;
   }
 }
 
@@ -807,7 +813,7 @@ span.a:hover, span.w:hover, span.i:hover, span.s:hover, span.h:hover{
     cursor: grab;
   }
   .carousel .card-1:active{
-    background: #f0db4f;
+    background: #b8f04f;
   }
   .carousel .card-2:active{
     background: #e44c23;
