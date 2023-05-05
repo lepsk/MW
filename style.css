@@ -9,15 +9,6 @@
     font-family: 'Red Hat Display', sans-serif;
     cursor: url('Assets/cursors/Normal.cur'), default;
 }
-
-/* PRELOADER */
-div.container {
-  display: flex;  
-  justify-content: center;  
-  align-items: center; 
-  position: fixed;
-  z-index: 11111111111111;
-}
 .pre{
   height: 120vh;
 }
